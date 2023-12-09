@@ -8,6 +8,7 @@ import "./App.css";
 import { useStateContext } from "./contexts/ContextProvider";
 
 function App() {
+  //// test
   const {activeMenu} = useStateContext();
   return (
     <div>
@@ -59,7 +60,7 @@ function App() {
               <Route path="/color-mapping" element={<ColorMapping />} />
               <Route path="/pyramid" element={<Pyramid />} />
               <Route path="/stacked" element={<Stacked />} />
-            </Routes>/
+            </Routes>
           </div>
         </div>
       </BrowserRouter>

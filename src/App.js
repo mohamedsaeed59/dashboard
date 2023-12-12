@@ -8,7 +8,6 @@ import "./App.css";
 import { useStateContext } from "./contexts/ContextProvider";
 
 function App() {
-  //// test
   const {activeMenu} = useStateContext();
   return (
     <div>
